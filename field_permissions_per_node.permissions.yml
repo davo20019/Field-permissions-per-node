@@ -1,0 +1,6 @@
+permission_callbacks:
+  - Drupal\field_permissions_per_node\FieldPermissionsPerNodeService::getAllPermissions
+administer field permissions:
+  title: 'Administer field permissions per node'
+  description: 'Manage field permissions and field permissions per node settings.'
+  restrict access: TRUE
